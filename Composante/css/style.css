@@ -1,0 +1,33 @@
+.container {
+    padding: 20px 0;
+}
+
+.icon {
+    width: 2.5%;
+}
+
+.card-img-top {
+    max-height: 200px;
+}
+
+.navbar-nav a:hover {
+    color: blue;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1250px) {
+    .rounded-circle {
+        max-width: 100%;
+    }
+}
