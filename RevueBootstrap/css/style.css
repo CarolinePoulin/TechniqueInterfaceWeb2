@@ -11282,9 +11282,39 @@ textarea.form-control-lg {
   }
 }
 hr {
+  margin: 30px auto;
   margin-bottom: 30px;
   margin-top: 30px;
   max-width: 50px;
   border-width: 3px;
-  border-color: #f05f40;
+  opacity: 1;
+  color: #dc3545;
+}
+
+.hrblanc {
+  color: #ffffff;
+}
+
+.bg-image {
+  background-image: url("../img/workspace-ge5a7a26b3_1280.jpg");
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.padding {
+  padding: 120px 280px;
+}
+
+img {
+  width: 100%;
+}
+
+.bandeOrange {
+  padding: 50px 0;
+}
+
+.service {
+  padding: 50px 0;
 }
