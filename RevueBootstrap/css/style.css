@@ -11297,6 +11297,8 @@ hr {
 
 .bg-image {
   background-image: url("../img/workspace-ge5a7a26b3_1280.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .btn {
@@ -11312,9 +11314,30 @@ img {
 }
 
 .bandeOrange {
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .service {
   padding: 50px 0;
+}
+
+@media (max-width: 1200px) {
+  .padding {
+    padding: 120px 180px;
+  }
+}
+@media (max-width: 992px) {
+  .padding {
+    padding: 120px 120px;
+  }
+}
+@media (max-width: 768px) {
+  .padding {
+    padding: 120px 100px;
+  }
+}
+@media (max-width: 576px) {
+  .padding {
+    padding: 100px 80px;
+  }
 }
